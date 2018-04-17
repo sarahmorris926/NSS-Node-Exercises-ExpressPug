@@ -5,6 +5,11 @@ const app = express();
 
 app.set("view engine", "pug");
 
+app.use(
+  "/bootstrap",
+  express.static(__dirname + "/node_modules/bootstrap/dist/")
+);
+
 app.get("/", (req, res, next) => {
   res.render("index");
 });
