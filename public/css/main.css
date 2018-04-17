@@ -1,5 +1,5 @@
-body {
-  background-color: rgb(250, 133, 133);
+.title, .bio {
+  text-align: center;
 }
 
 .pastry {
