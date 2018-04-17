@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(250, 133, 133);
+}
+
+.pastry {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
